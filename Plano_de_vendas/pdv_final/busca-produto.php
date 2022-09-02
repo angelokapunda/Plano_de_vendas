@@ -1,7 +1,7 @@
 <?php
 
 function insereProduto($conexao, $nome, $descricao, $preco)  {
-    $query = "insert into cadastro_produtos (nome, descricao, preco, data) values ('{$nome}', '{$descricao}',{$preco} ,NOW())";
+    $query = "insert into cadastro_produtos (nome, descricao, preco, data)values ('{$nome}', '{$descricao}',{$preco} ,NOW())";
     return mysqli_query($conexao, $query);
 }
 

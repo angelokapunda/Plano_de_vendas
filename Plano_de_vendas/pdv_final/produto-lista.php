@@ -49,4 +49,4 @@ require_once("banco-produto.php");
 </form>
     
 
-<? include("rodape.php"); ?>
+<? require_once("rodape.php"); ?>
